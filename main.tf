@@ -60,7 +60,7 @@ resource "aws_security_group" "mco_sg" {
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
-    cidr_blocks = ["82.76.153.174/32"]
+    cidr_blocks = [""]
   }
 
   egress {
